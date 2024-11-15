@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="249.0" prefWidth="253.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myapp.listapp.NewBorrowController">
+   <children>
+      <Button layoutX="66.0" layoutY="210.0" mnemonicParsing="false" onAction="#onAddNewBorrowerButtonAction" text="ADD New Borrower" />
+      <Label layoutX="53.0" layoutY="14.0" text="Add new Borrower">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="borrowBookName" alignment="TOP_LEFT" layoutX="52.0" layoutY="50.0" promptText="Book name" />
+      <TextField fx:id="borrowBookAuthor" alignment="TOP_LEFT" layoutX="52.0" layoutY="90.0" promptText="Book author" />
+      <DatePicker fx:id="borrowDate" layoutX="40.0" layoutY="170.0" promptText="Borrow Date" />
+      <TextField fx:id="borrowerFullName" alignment="TOP_LEFT" layoutX="52.0" layoutY="130.0" promptText="Borrower full name" />
+   </children>
+</AnchorPane>
