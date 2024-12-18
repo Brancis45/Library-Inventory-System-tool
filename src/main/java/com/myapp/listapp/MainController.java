@@ -158,7 +158,7 @@ public class MainController implements Initializable {
         }
     }
 
-    void loadBooksFromDatabase() {
+    public void loadBooksFromDatabase() {
         String dbGramatasQuery = "SELECT \"Book ID\", \"Book name\", \"Author\", \"Genre\", \"Stock\" FROM Books";
 
         try {
